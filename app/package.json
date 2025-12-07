@@ -1,0 +1,13 @@
+{
+  "name": "devops-agent-test-app",
+  "version": "1.0.0",
+  "description": "Test application for AWS DevOps Agent verification",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "newrelic": "^11.0.0"
+  }
+}
