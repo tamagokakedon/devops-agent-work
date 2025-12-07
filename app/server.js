@@ -5,7 +5,8 @@ const app = express();
 const port = 80;
 
 app.use((req, res, next) => {
-    console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+    //console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+    console.log(`Test app listening on port ${port} - Update for DevOps Agent Verification`);
     next();
 });
 
